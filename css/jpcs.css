@@ -17,6 +17,15 @@ body {
   width: 100%;
 }
 
+.drama-content {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.drama-content.fade-in {
+  opacity: 1;
+}
+
 .drama-header,
 .drama-paragraph {
   color: #fff;
